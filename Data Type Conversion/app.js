@@ -12,29 +12,28 @@
 // console.log(typeof ValueString);
 
 
-// let score = "33abc";
+// let score = "";
 // let value = Number(score)
 // console.log(typeof value);
-
+// console.log(value);
 
 // let score = null;
 // let score = undefined;
 // let score = true;
-// // let score = false;
+// let score = false;
 // let score = "sherry";
 
 
 
-
-// let value = Number(score)
 // console.log(typeof score);
-// console.log(typeof (score));
+// let value = Number(score)
+// // console.log(typeof (score));
 // console.log(typeof value);
 // console.log(value);
 
 
 // "33" => 33
-// "33abc" => NaN , but type is => number
+// "33abc" => value => NaN , but type is => number
 // true => 1; false => 0;
 
 
@@ -50,10 +49,12 @@
 // let LoggedIn = 1;
 // let BooleanLogedin = Boolean(LoggedIn)
 // console.log( typeof BooleanLogedin);
+// console.log(BooleanLogedin);
 
 
 // let LoggedIn = 0;
 // let BooleanLogedin = Boolean(LoggedIn)
+// console.log(BooleanLogedin);
 // console.log(BooleanLogedin);
 
 // let LoggedIn = "";
