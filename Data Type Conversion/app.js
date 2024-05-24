@@ -12,10 +12,10 @@
 // console.log(typeof ValueString);
 
 
-// let score = "";
-// let value = Number(score)
-// console.log(typeof value);
-// console.log(value);
+let score = "";
+let value = Number(score)
+console.log(typeof value);
+console.log(value);
 
 // let score = null;
 // let score = undefined;

@@ -19,12 +19,6 @@ console.log(anotherName);
 console.log(myYoutube);
 
 
-
-// **************** Summary ************************
-// jab hamne "myYoutube" ki value declare ki "InsighSphere" then "anotherName" variable ko equal kr dya "myYoutube" variable ke.. phr "anotherName" variable ki value change kr di console krne pr another name ki changable value ai becuase ye stack Memory hai , Syack memory main hame variable ki copy milti hai
-
-
-
 let userOne = {
      email: "hshehriyaralam@gmail.com",
      phone: +923120346893,
@@ -36,8 +30,21 @@ userTwo.email = "muhammadshamirmajeed@gmail.com";
 console.log(userOne);
 console.log(userTwo);
 
+// **************** Summary ************************
+// jab hamne "myYoutube" ki value declare ki "InsighSphere" then "anotherName" variable ko equal kr dya "myYoutube" variable ke.. phr "anotherName" variable ki value change kr di console krne pr another name ki changable value ai becuase ye stack Memory hai , Syack memory main hame variable ki copy milti hai
+
+// * 
+
+
+
+
 
 // ********************* Summary ****************************
 /* ek Object main email and phone number store karaya  "userOne" variable ke name se and "userTwo" variable ko equal kr dya userOne se ,then "userTwo" ke email ko change kr dya , Now both variable ke email change ho jayega ...becuase ye "Heap Memory" hai  .... Heap memory main hamein Reference milta hai.
 
-
+* Memory = 1) Stack 2) Heap
+* Stack => Primitive Data Types (String, Number, Boolean, BigInt, Symbol, null, Undefined)
+* Heap => Non Primitive Data Types (Object, Array, Function)
+* Stack MEmory =>  Variable Copy given hogi 
+* Heap Memory => Variable Refernece given Hogi
+*/

@@ -54,4 +54,16 @@
 // Postfix => pehle print phr add like a++
 // Prefix => pehle add phr print like ++a
 
-
+// ******************* Summary ***********************
+/* 
+* variable value - ya + add krne se wo positive and negative ho jayega
+* kisi bh number ko power dene ke lye ye (**) use krte hain 
+* Modulas (%) most of the time DSA and Logics building ke lye  use krte hain
+* Java Script Run hota hai Top to buttom and left to right
+* True ki number value 1 hogi 
+* False ki number valye 0 hogi
+* Empty ("") ki value empty hogi
+* Empty ("") ki number value 0 hogi
+* Postfix (a++) pehle print
+* prefix (++a) Pehle add
+*/

@@ -19,7 +19,7 @@
 
 // const BigIntNumber = 537255735476253257352757157265n;
 // console.log(typeof BigIntNumber);
-// // Data Tyoe bigINt Banane Ke lye bs last main "n" add kr dete hain ,, but  BigInt itna usable nh hai ye
+// // Data Type bigINt Banane Ke lye bs last main "n" add kr dete hain ,, but  BigInt itna usable nh hai ye
 
 
 
@@ -43,7 +43,18 @@
 // Symbol ka Data Type Symbol hi ata hai
 
 
-
+/* ******************* Summary ************************
+* Data Types => Kis tarah se store kya gaya hai kis tarah se app access kr sakte ho
+* Two Types of Data Types Primitive , Non-Primitive
+* Primitive call by value hota hai (String, Number, Boolean, null, Undefiined, Symbol, BigInt)
+* Symbol always Uniqness ke lye use hoTA hai
+* BigInt Data Type Banane Ke lye LAst main "n" add kr dete hai
+* Non Primitive Data Types Call By Reference hai (Array, Function, Object)
+* Function ka Data TYpe "Obeject Function" Hota hai
+* All Non-Primitive Data Type Object hote hain
+* But Function Data Type "Object Function" hota hai
+* Symbol Data Type Symbol hi hai
+*/ 
 
 
 
