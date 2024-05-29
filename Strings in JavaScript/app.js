@@ -17,11 +17,12 @@ console.log(`My Name  is ${userName} and My repoCount is ${repoCount}`);
 
 // string likhne ka ye 2ostra Tarika hai
 let emailId = new String("Shahmeer");
+console.log(emailId);
 // is Type se Hamein Bohat Sare hamein Bohatt sare Method and Lenght milte hain
 
 // // KOi bh PROperty chaia uski key value access kr sakte hain
 console.log(emailId[0]);   // Console = S 
-// // Besides that ham Protype BH access kya JAa sakta hai
+// // Besides that  Protype BH access kya JAa sakta hai
 console.log(emailId.__proto__);
 
 // // AP JAise proto TYpe access Kr sakte hai Ayese HI iske sare ,method bh access kr sakte hain
@@ -64,13 +65,13 @@ console.log(userNameone.includes("Alam"));
 /* 1) String Single code se bh donate krte hain double code se.
 2) Jab 2 String ko apas main add karenge wo sirf Concate hOga Add only Numbers m hOta hai.
 3)  Console.log write krne ke lye modern Syntax Way bh hai "console.log(`My name is ${"Shehriyar Alam"}`) isko "string interpulation" kehte hain
-4)  String 2osre se write down kr sakte hai 
+4)  String 2osre way se bh write down kr sakte hai 
 let userName = new String("Shehriyar")
 5) string mmain indexNumber se lenght ki value aaa jati hai
 6) String ki Copy Lene Ke lye "SubString" use krte tHE 
 7) String me "trim" method se Extra Space Cancell Out HO Jata HAi
 8) String me 1 method Replace ki ,,,, isme 2 value hogi , ek jo replace krne ki ek jo jisse replce krni hai
-9) String me ek method or hai inclue String main KOi bh value add krne ke lye
+9) String me ek method or hai includes String main KOi bh value add krne ke lye
 
 
 Modern Way Text 
@@ -82,7 +83,7 @@ console.log(`My name is ${username} and my id number ${IDNumber}`);
 
 let smitId = new String("Sherry")
 let smitName = new String("              Sherry")
-console.log(`My SMIT ID ${smitd}`);
+// console.log(`My SMIT ID ${smitd}`);
 console.log(smitd.charAt(6));
 console.log(smitd.substring(0,5 ));
 console.log(smitd.slice(-5,5)); // || Rvevrse Value Not work 
