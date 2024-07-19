@@ -50,7 +50,7 @@
 
 // MM DD YY Syntax 
 
-// let myCreateDates2 = new Date("01-14-2024");
+// let myCreateDates2 = new Date("01-14-2024");j
 // console.log(myCreateDates2);
 
 

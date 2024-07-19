@@ -31,7 +31,7 @@ console.log(userOne);
 console.log(userTwo);
 
 // **************** Summary ************************
-// jab hamne "myYoutube" ki value declare ki "InsighSphere" then "anotherName" variable ko equal kr dya "myYoutube" variable ke.. phr "anotherName" variable ki value change kr di console krne pr another name ki changable value ai becuase ye stack Memory hai , Syack memory main hame variable ki copy milti hai
+// jab hamne "myYoutube" ki value declare ki "InsighSphere" then "anotherName" variable ko equal kr dya "myYoutube" variable ke.. phr "anotherName" variable ki value change kr di console krne pr another name ki changable value ai But  again console krne PR actual value "myYoutube" change nh hui becuase ye stack Memory hai , Syack memory main hame variable ki copy milti hai
 
 // * 
 

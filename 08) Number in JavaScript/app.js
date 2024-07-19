@@ -21,9 +21,10 @@ console.log(Precision.toPrecision(5));
 // toPrecision (significantDigits) => Numbers ko specified number of significant digits tak round karta hai .....Example : 123.456 toPrecision(4) => 123.5 
 
 
-// tolocaleString  => value commas main braek kr dete hain, By Default US standard ko shpw krte hai inke ham apni country ke accourding bh kar sakte hai
+// tolocaleString  => value commas main braek kr dete hain, By Default US standard ko show krte hai inke ham apni country ke accourding bh kar sakte hai
 let tenThousand = 1000000000;
 console.log(tenThousand.toLocaleString('en-IN'));
+
 
 
 // ********************** Summary 1 *******************
@@ -60,7 +61,7 @@ console.log(Math.min(9,5, 5, 8, 9,1, 0));
 console.log(Math.max(9,10,50,0,89));
 
 
-// Math.rando() ki value hamesha 0 and 1 ke beech main, 0 bh ho sakti 1 bh ho sakti hai
+// Math.random() ki value hamesha 0 and 1 ke beech main, 0 bh ho sakti 1 bh ho sakti hai
 console.log(Math.random());
 
 // agar ham 10 se multiply kra dein to, isme ham range define kr rahe hain
@@ -69,9 +70,10 @@ console.log(Math.random()*10);
 // value 0 nh ani chaia 
 console.log(Math.random()*10 + 1);
 
-
 // Best Practice hai ye Under Bracket
 console.log((Math.random()*10) + 1 );
+
+
 
 // agar ek hi value chaia to
 console.log(Math.floor(Math.random()*10 + 1));

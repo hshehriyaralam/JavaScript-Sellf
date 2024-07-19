@@ -18,7 +18,7 @@ console.log(`My Name  is ${userName} and My repoCount is ${repoCount}`);
 // string likhne ka ye 2ostra Tarika hai
 let emailId = new String("Shahmeer");
 console.log(emailId);
-// is Type se Hamein Bohat Sare hamein Bohatt sare Method and Lenght milte hain
+// is Type se  hamein Bohatt sare Method and Lenght milte hain
 
 // // KOi bh PROperty chaia uski key value access kr sakte hain
 console.log(emailId[0]);   // Console = S 
