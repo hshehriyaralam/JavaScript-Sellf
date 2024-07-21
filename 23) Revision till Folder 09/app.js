@@ -210,12 +210,12 @@ console.log(negtiveValue); // -3
 // 2-2, 2+2, 2*2, 2/2, 2**2(power), 2%2 most of the time use DSA
 
 // *) two string Concate
-// let str1 = "SHerry";
-// let str2 = "khan";
-// let str3 = str1 + str2;
+let str1 = "SHerry";
+let str2 = "khan";
+let str3 = str1 + str2;
 // // new update 
-// let str4 = `${str1} and ${str2}`
-// console.log(str4);
+let str4 = `${str1} and ${str2}`
+console.log(str4);
 
 
 // *) Tricky Questions
@@ -267,27 +267,27 @@ console.log(++gameCount);
 // +++++++++++++++++++++++++++++ [Comparison Of Data Types] ++++++++++++++++++++++++++++++++++
 
 // *) Some Comparison
-// console.log(2 > 1);  // true
-// console.log(2 >= 1); // true
-// console.log(2 <= 1); // false 
-// console.log(2 != 1); // true
+console.log(2 > 1);  // true
+console.log(2 >= 1); // true
+console.log(2 <= 1); // false 
+console.log(2 != 1); // true
 
 // *) Comparison Different Data Types
-// console.log("2" > 1); // true
-// console.log("02" > 1); // Empty
+console.log("2" > 1); // true
+console.log("02" > 1); // Empty
 // Always Data Type is same with the Time of Comparison
 
 // *) null Comparison 
-//  console.log(null > 0);
-//  console.log(null < 0);
-//  console.log(null == 0);
-//  console.log(null >= 0);
+ console.log(null > 0);
+ console.log(null < 0);
+ console.log(null == 0);
+ console.log(null >= 0);
 
 // *) Undefined Comparison
-// console.log(undefined == 0);
-// console.log(undefined >= 0);
-// console.log(undefined > 0);
-// console.log(undefined < 0);
+console.log(undefined == 0);
+console.log(undefined >= 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
 // Undefined Comparison values always false 
 
 
