@@ -313,47 +313,47 @@ console.log(undefined < 0);
 
 // Primitives 
 // // String 
-// let stringData = "Primitive Data Type";
-// console.log(typeof stringData);
+let stringData = "Primitive Data Type";
+console.log(typeof stringData);
 
 // Number 
-// let numberData = 7384288;
-// console.log(typeof numberData);
+let numberData = 7384288;
+console.log(typeof numberData);
 
-// // let symbolData = Symbol("35216");
-// let symbolData = Symbol(896943);
-// console.log(symbolData);
-// console.log(typeof symbolData);
+// let symbolData = Symbol("35216");
+let symbolData = Symbol(896943);
+console.log(symbolData);
+console.log(typeof symbolData);
 // // Symbol Use always uniqness
-// let symbolData2 = Symbol(896943);
-// console.log(symbolData == symbolData2); // False 
+let symbolData2 = Symbol(896943);
+console.log(symbolData == symbolData2); // False 
 
 // //BigInt 
 // // just add n in last value 
-// let bigIntData = BigInt(3874854132787587534n);
-// let bigIntData2 = 686239868326162n
-// console.log( typeof bigIntData2);
+let bigIntData = BigInt(3874854132787587534n);
+let bigIntData2 = 686239868326162n
+console.log( typeof bigIntData2);
 // // not a usable 
 
 
 // Non-Primitive 
 // // Array
-// let arrData = ["karahi", "Lahore"]
-// console.log(typeof arrData);
+let arrData = ["karahi", "Lahore"]
+console.log(typeof arrData);
 
 // Objects
-// let objData = {
-//     firsName : "Shahmeer",
-//     lastName : "Sherry"
-// }
-// console.log(objData);
+let objData = {
+    firsName : "Shahmeer",
+    lastName : "Sherry"
+}
+console.log(objData);
 
 
 // // Functions 
-// function funcData (){
-//     console.log("Non-Primitive Data Types");
-// }
-// funcData()
+function funcData (){
+    console.log("Non-Primitive Data Types");
+}
+funcData()
 // array and Object Data Type is Object
 // But Function Data Type is Function It's mean "Object Function"
 /*
@@ -367,14 +367,14 @@ console.log(undefined < 0);
 07) Symbol use always uniqness
 08) BigInt > Just add "n" in last value
 09) Array and Objects Data Types is Object
-10) Function Data Types is Function But Object Funtion 
+10) Function Data Types is Function But "Object Funtion" 
 */
 
-// +++++++++++++++++++++++++++++++++++ [Stack & Heap Memory] +++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++ [Stack & Heap Memory] +++++++++++++++++++++++++++++++++++
 
 // How to work memory in JS
 // Starting main memory ko reserve krna end free krna 2ono programmer kam hota ta like C Language 
-// But Current Modern language main memory accessable provide nh hota sb aoutomatically gardbrige hota hai
+// But Current Modern language main memory accessable provide nh hota sb aoutomatically gardbrige hote hain
 
 
 // *) Modern Language => Rust, Go(Golang), swift, kotlin,TpesSript
@@ -392,32 +392,30 @@ console.log(undefined < 0);
 
 // Check Stack Memory 
 // number, Strings, Boolean, null, undefined,  BigInt
-// let var1 = 23;
-// console.log(var1);
+let var1 = 23;
+console.log(var1);
+let var2 = var1;
+var2 = 25;
+console.log(var2);
+console.log(var1);
 
-// let var2 = var1;
-// var2 = 25;
-
-// console.log(var2);
-// console.log(var1);
-
-// var1 ko value de kr var2 kr equal kr dya jab ke and var2 ko value de di jb ke actuall var1 change nh hua becuase ye stack memory hai... isme hamien copy milti hai
+// var1 ko value de kr var2 kr equal kr dya jab ke  var2 ko value de di jb ke actuall var1 change nh hua becuase ye stack memory hai... isme hamien copy milti hai
 
 // ye rule all primitive Data types main apply hOga like strings, booleans, Nulls, undefined etc
 
 
 
 // Check Heap Momory
-// let StdOne = {
-//     name : "Shehriyar ALam",
-//     Email : "Shahmeer@gmail.com"
-// }
-// console.log(StdOne);
-// let StdTwo = StdOne
-// StdTwo.Email = "hshehriyarAlam@gmail.com";
-// StdTwo.name = "Shahmeer";
-// console.log(StdTwo);
-// console.log(StdOne);
+let StdOne = {
+    name : "Shehriyar ALam",
+    Email : "Shahmeer@gmail.com"
+}
+console.log(StdOne);
+let StdTwo = StdOne
+StdTwo.Email = "hshehriyarAlam@gmail.com";
+StdTwo.name = "Shahmeer";
+console.log(StdTwo);
+console.log(StdOne);
 
 // jb StdOne ko email and name assign kr dya .. StdTwo ko STdOne Ke equal Kr dya phr Dono Value ko change kr dya ... iski Actuall value bh change ho gai... becuase ye Heap Memory hain and Heap memory main hamien Reference Milta hai
 
@@ -440,49 +438,49 @@ console.log(undefined < 0);
 
 // String Primitive Data Types hai
 // String ko Declare karte hain Single and Double Qoutation se 
-// let str1 = 'shah'
-// let str2 = "Meer"
+let str67 = 'shah';
+let str78 = "Meer"
 
 // Numbers APas main add HOte hain But Strings Concate Hote hain
 // Strings Concatenation 
-// let str3 = "Shehriyar";
-// let str4 = "Alam";
-//  let strCombined = str3 + str4;
-//  console.log(strCombined);
+let str43 = "Shehriyar";
+let str44 = "Alam";
+ let strCombined = str43 + str44;
+ console.log(strCombined);
 
  // String InterPulations 
-//  let strCombined2 = `${str3}  ${str4}`
-//  console.log(strCombined2);
+ let strCombined2 = `${str3}  ${str4}`
+ console.log(strCombined2);
 
  // 2nd Way to  Declare Strings 
-//  let str5 = new String("Shahmeer");
-//  console.log(str5);
+ let str5 = new String("Shahmeer");
+ console.log(str5);
 
  // access property through value key
-//  console.log(str5[0]);
+ console.log(str5[0]);
  //becuase Strings behave as a array in JS
 
  // See Charachter Positions
-//  console.log(str5.charAt(5)); // S
+ console.log(str5.charAt(5)); // S
 
 // Get Index Number 
-// console.log(str5.indexOf("h"));
+console.log(str5.indexOf("h"));
 
 // Get Copy Strings
-// console.log(str5.substring(0, 4));
+console.log(str5.substring(0, 4));
 
-// console.log(str5.slice(4, 0));
+console.log(str5.slice(4, 0));
 
 // Extra Spaces delete
-// let str6 = "                      Syed"
-// console.log(str6.trim());
+let str6 = "                      Syed"
+console.log(str6.trim());
 
 // Replace values 
-// let str8 = "Shehriyar-Alam"
-// console.log(str8.replace("-", " "));
+let str8 = "Shehriyar-Alam"
+console.log(str8.replace("-", " "));
 
-// Access value Check
-// console.log(str8.includes("h"));
+//value Check
+console.log(str8.includes("h"));
 
 
 /* 
@@ -503,73 +501,73 @@ console.log(undefined < 0);
 // ++++++++++++++++++++++++++++++++++++ Numbers in JS ++++++++++++++++++++++++++++++++++++++
 // Primitive Data Type Number
 // Number Declare 
-// let num1 = new Number(89);
-// console.log( typeof num1);
+let num1 = new Number(89);
+console.log( typeof num1);
 
 //Round off  and Formate Decimal Values
-// let num2 = new Number(654.89989);
-// console.log(num2.toFixed(3));
+let num2 = new Number(654.89989);
+console.log(num2.toFixed(3));
 // . se pehle ki value ko round karega 
 
 // Round Off and Formate specific decimal values
-// let num3 = new Number(1234.7689);
-// console.log(num3.toPrecision(5));
+let num3 = new Number(1234.7689);
+console.log(num3.toPrecision(5));
 
 
 // Add commas in 100 
-// let num4 = 100000000000000000;
-// console.log(num4.toLocaleString('en-IN'));
+let num4 = 100000000000000000;
+console.log(num4.toLocaleString('en-IN'));
 
 //-ve value Convert to +ve 
-// let num5 = -10;
-// console.log(num5);
-// console.log(Math.abs(num5));
+let num5 = -10;
+console.log(num5);
+console.log(Math.abs(num5));
 // But +ve value always +ve 
-// let num6 = 20;
-// console.log(Math.abs(num6));
+let num6 = 20;
+console.log(Math.abs(num6));
 
 // Cancell all Decimal values 
-// let num7 = 8.9;
-// console.log(Math.round(num7));
+let num7 = 8.9;
+console.log(Math.round(num7));
 
 // Choose Round Of upper and Lower values 
-// let num8 = 8.2;  // Use to Upper Case  and value Greter Than inn 0
-// console.log(Math.ceil(num8));
-// let num9 = 8.9; // Use Lower Case 
-// console.log(Math.floor(num9));
+let num8 = 8.2;  // Use to Upper Case  and value Greter Than in 0
+console.log(Math.ceil(num8));
+let num9 = 8.9; // Use Lower Case 
+console.log(Math.floor(num9));
 
 // Find Lowest Value
-// let num10 = (2,3,9,9,89,2,56,78)
-// console.log(Math.min(num10));
+let num10 = (2,3,9,9,89,2,56,78)
+console.log(Math.min(num10));
 
 
 // Find Highest value
-// let num11 = (2,6,78,89,8,78,105)
-// console.log(Math.max(num11));
+let num11 = (2,6,78,89,8,78,105)
+console.log(Math.max(num11));
 
 //Math.Random | Random values always consume under 0 into 1 sometimes 1 and sometimes 0;
-// console.log(Math.random());
+console.log(Math.random());
 
 //  Range defined
-// let num12 = Math.random() * 10;
-// console.log(num12);
+let num12 = Math.random() * 10;
+console.log(num12);
 
 // If Not get 0 values 
-// let num13 = Math.random() * 10 +1;
-// console.log(num13);
+let num13 = Math.random() * 10 +1;
+console.log(num13);
 
 // UndreBracket Best Practice 
-// let num14 = (Math.random()* 10 + 1);
-// console.log(num14);
+let num14 = (Math.random()* 10 + 1);
+console.log(num14);
 
 // Get Only one Value 
-// let num15 = Math.floor(Math.random()*10 + 1)
-// console.log(num15);
+let num15 = Math.floor(Math.random()*10 + 1)
+console.log(num15);
 
 // Same Concept But Generatic Formula
-// let min = 10;
-// let max = 50;
-// console.log(Math.floor(Math.random() * (max - min + 1 )) + min);
+let min = 10;
+let max = 50;
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min);
 
 /*
 ***************************************** Summary ****************************************
@@ -580,7 +578,7 @@ console.log(undefined < 0);
 05) How to change Huge values in Our Country Standrad 1000000000000.toLocalStrings('en-IN)
 06) How to Convert negative value to Positive Value : Math.abs(-10)
 07) How to Cancell all Decimal Values : Math.round()
-08) How to Choose Rounf Of Highes and lowest values
+08) How to Choose Round Of Highes and lowest values
 09) for lowest : Math.floor
 10) for highest : Math.ciel
 11) How to Find Lowest and Highest values in Numbers
@@ -636,21 +634,3 @@ myDate.toLocaleTimeString();
 18) Convert MiliSecons to Second / 1000
 19) Custamized Formate : Date is ${Math.floor(Date.now()/1000)}`
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

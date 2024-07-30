@@ -9,8 +9,8 @@
 // console.log(myaArr[0]);
 
 // array shallow Copies refere krta hain na ke deep copies 
-// shallow copies jiske changes se actual values change hoTi hai
-// deep copies main hamien Reference milta hai actual change nh hoTa 
+// shallow copy jiske changes se actual values change hoTi hai
+// deep copy main hamien Reference milta hai actual change nh hoTa 
 
 
 // 2nd way to Define array
