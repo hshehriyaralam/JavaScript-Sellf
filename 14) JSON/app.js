@@ -7,14 +7,14 @@ const course = {
 
 console.log(course.courseInstractor);
 const {courseInstractor : Teacher} = course;
-// console.log(courseInstractor);
+console.log(courseInstractor);
 console.log(Teacher);
-// console.log(course);
+console.log(course);
 
 // Objects De-structure 
 // Object ki Koi value access krne ke lye usko de-Structer bh kar sakte hain
-// new variable assign kr ke bracket main {} key add kro and objects kon iske equal krdo
-// key name bh change kr sakte ho
+// new variable assign kr ke bracket main {} key add kro and objects ko iske equal krden
+// key name bh change kr sakten hain
 
 
 //  {

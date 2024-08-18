@@ -1,33 +1,33 @@
 // Singleton Objects
 // let darazUser = new Object();
 let darazUser = {}
-// console.log(darazUser);
+console.log(darazUser);
 
 // Nested Objects
-// let Objects = {
-//     email : "sherry",
-//     fullName : {
-//         userFullName : "SHahmeer",
-//         userLastName :{
-//             lastName : "khan"
-//         }
+let Objects = {
+    email : "sherry",
+    fullName : {
+        userFullName : "SHahmeer",
+        userLastName :{
+            lastName : "khan"
+        }
 
-//     }
-// }
+    }
+}
 
 // console.log(Objects.fullName.userLastName.lastName);
 
 // Multiple Objects Murch;
-//  let objOne = {1: "a", 2: "b"}
-//  let objTwo = {3: "c", 4: "d"}
-//  let objThree = {5 : "e", 6:"f"}
+ let objOne = {1: "a", 2: "b"}
+ let objTwo = {3: "c", 4: "d"}
+ let objThree = {5 : "e", 6:"f"}
 
-//  let murchObj = {objOne,  objTwo}// 2ono Object lag aa rahe hain
+//  let murchObj = {objOne,  objTwo}// 2ono Object alag aa rahe hain
 // let murchObj = Object.assign({}, objOne,  objTwo)
 // let murchObj = Object.assign(objOne,  objTwo, objThree)
 
 // Spred Method
-// let murchObj = {...objOne, ...objTwo, ...objThree,}
+let murchObj = {...objOne, ...objTwo, ...objThree,}
 
 
 
@@ -73,13 +73,3 @@ console.log(fullObjects.hasOwnProperty("age"));
 07) access key value pare of Objects =>  Object.entries(Obj)
 08) Check key in Object => objName.hasOwnProperty("keyName")
 */
-
-
-
-
-
-
-
-
-
-

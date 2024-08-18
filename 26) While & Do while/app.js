@@ -31,7 +31,7 @@ do{
     console.log(`Score is ${Score}`);
     Score++;
 }while(Score <= 10)
-// do while condition true na hoto error nh ayega 
+// do while condition true na hoto error nh ayega   
 
 // while 
 let Score1 = 11

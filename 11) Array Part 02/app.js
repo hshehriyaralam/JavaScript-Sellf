@@ -1,4 +1,4 @@
-// Marging 2 arrays
+    // Marging 2 arrays
 
 let PLN = ["Nawaz", "Shahbaz", "Maryam"];
 let MQM = ["Mustafa", "Khalid", "Kamran"];
