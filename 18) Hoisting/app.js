@@ -44,7 +44,7 @@ const addTwo = function(num) {
 }
 // Expression 
 // Expressins main functions se Pehle Invoke nh kr sakte 
-// Hoisting => function KASIE declare Honge, kahan unko rakha jata hai,Kya unka Excution Contact hai , variable ko JS kaise read krti hai, kaise final tree banati hai kasie all function and all variable rakhe jate hain
+// Hoisting => function KASIE declare Honge, kahan unko rakha jata hai,Kya unka Execution Contact hai , variable ko JS kaise read krti hai, kaise final tree banati hai kasie all function and all variable rakhe jate hain
 
 
 
@@ -55,5 +55,5 @@ const addTwo = function(num) {
 02) function with variable is called Expressions 
 03) Simple Functions allow to invoke before function
 04) But Expression Not Allow to invoke before functions
-05) Hoisting => functions, Variable Managment
+05) Hoisting => functions, Variable Managements
 */

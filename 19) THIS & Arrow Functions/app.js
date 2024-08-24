@@ -1,5 +1,5 @@
 // Arraow Functions and THIS
-// THIS => Current Contact KO Refere Karte Hain
+// THIS => Current Contact KO Refere Karta Hain
 
 const user = {
     userName : "Sherry",
@@ -37,7 +37,6 @@ const  coffee = () => {
     let userName = "KHan"
     console.log(this.userName);
     console.log(this);
-//     // but arrow function main just this print karai to undefined ayega 
 }
 coffee()
 
@@ -65,8 +64,9 @@ console.log(arr3(6, 6));
 
 
 
+
 // But agr Object return krna hoto parenthesis lagana hOga
-let arrw4 = () => ({userName : "Shahmeer"});
+let arrw4 = () => ({userName : "Shahmeer"}); 
 console.log(arrw4());
 
 
@@ -83,6 +83,6 @@ console.log(arrw4());
 08) Arrow Function Syntax  => let arrw = () => {}
 09) Allow to Implecit return in Arrow function It's mean let arrw2 = (num3, num4) => num3 + num4;
 10) and allow to () in returns value => let arr3 = (num5, num6) => (num5 + num6)
-11) But If use to be {} it's compulsory declare Return value => let arr3 = (num5, num6) => { return num5 + num6}
+11) But If we use to be {} it's compulsory declare Return value => let arr3 = (num5, num6) => { return num5 + num6}
 12) IF return in Object that use {} =>  let arrw4 = () => ({userName : "Shahmeer"});
 */

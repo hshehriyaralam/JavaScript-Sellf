@@ -9,7 +9,7 @@
 // function Declare  | Function Execution
 // Ice() // Normal Invoke
 
-// Global scope kr polutions se bachne ke lye IFEE Use krte hain 
+// Global scope ke polutions se bachne ke lye IFEE Use krte hain 
 // IFEE main semicolon must hai  warna Error ayega 
 
 

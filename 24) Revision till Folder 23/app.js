@@ -428,6 +428,147 @@ let PLN = ["Nawaz", "Shahbaz", "Maryam"]
 
 
 
+// +++++++++++++++++++++++++++++++++++++++++ Scope +++++++++++++++++++++++++++++++
+
+/// {} Curly Braces har programing language main scope hai 
+// But Object main Curly Braces {} Object Declaration hai 
+// Functions, arrays and cnditions ke sath Curly braces Scope hai 
+
+// for Example 
+// let a = 10;
+// const b = 20;
+// var c = 30 ;
+// if(true){
+//   let a = 11  // block scope 
+//    const b = 21  // b;lcok scope
+//   var c = 31 // Global Scope 
+// }
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+/* ++++++++++++++++++++++++++++ Summary +++++++++++++++++++++++++++++++++++
+01) Curly Braces {} har programing language main "Scope" hai
+02) But Object main Curly Braces {} Objects Declarartion hai
+03) Functions, arrays and Conditions main Curly Braces {} "Scope"
+*/
+
+
+// ********************************** Hoistings ****************************
+
+// function one(){
+//   const userName = "Gul Ahmad";
+
+//   function two(){
+//     const website = "LinkedIn"
+//     console.log(userName);
+    
+//   }
+//   // console.log(website); // Error
+  
+//   two()
+// }
+// one()
+
+
+// if(true){
+//   const userName = "Sherry"
+//   if(userName === "Sherry"){
+//     const website = "Youtube"
+//     console.log(userName + website);
+//   }
+//   // console.log(userName + website); // Error
+// }
+
+
+// Functons se pehle functions main invoke 
+// addtwo()
+// function addtwo (){
+//   console.log("AddTwo");
+  
+// }
+
+// But ye arrow function main error aa jayega 
+// newfunc()
+// let newfunc =  () => {
+//   console.log("three");
+  
+// }
+// console.log(Express(5));
+
+// let Express = function(num){
+//   return num + 1
+// }
+
+// Expressions main functions se pehle invoke nh kr sakte 
+// Hoisting => Function kaise declare honge , kahan unko rakha jata hain , Kya unka Execution contact hai, variable Ko Javascript kaise read karta ha , kaise final tree banti hain kaise functions and variable ko rakha jata hai 
+
+/* ++++++++++++++++++++++++++ Summary ++++++++++++++++++++++++++++++++++
+01) functions with variable is called Expressions 
+02) Simple functions are alllowed to invoke functions before function
+03) But arrow function and Expressions are not allowed to invoke functions before function
+04) Hoisting => functions , Variable Managements 
+*/ 
 
 
 
+
+// ****************************** THIS and Arrow Functions ***********************************
+// THIS Current Contaxt ko Refere krta hai
+
+
+// const user = {
+//   userName : "Sherry",
+//   PRice : 1999,
+//   WelcomeMessage : function (){
+//     console.log(`${this.userName}`, "Welcome");
+//     console.log(this);
+    
+    
+//   },
+// }
+// user.WelcomeMessage()
+// // console.log(this);
+// user.userName = "Shahmeer";
+// user.WelcomeMessage()
+
+// function chai (){
+//   let userName = "Arshad";
+//   console.log(this.userName);
+//   console.log(this);
+  
+  
+// }
+// chai()
+
+// const coffee = () => {
+//   let userName = "Khan"
+//   console.log(this.userName);
+//   // console.log(this);
+  
+// }
+// coffee()
+
+
+// Arrow Functions 
+// let arrw = (num1,num2) => {
+//   return num1 + num2
+// }
+// console.log(arrw(6,89));
+
+// Implecite Return 
+// let arrw2 = (num3 , num4) => num3 + num4;
+// console.log(arrw2(8,9));
+
+// // But Object return krna hai to 
+// let arrr3 = () => {`userName : "Shahmeer"`}
+// console.log(arrr3());
+
+
+/* ++++++++++++++++++++++++++++++ Summary ++++++++++++++++++++++++++++
+01) "ThIS" used to be current (Contaxt : value ) Refere
+02) Empty "THIS" output empty objects in node enviroment 
+03) Empty "THIS" output window Objects in browser 
+*/

@@ -4,17 +4,17 @@
 // Function , array and conditions ke sath curly  Braces {} scope hain
 
 
-// let a = 10;
-// const b = 20;
-// var c = 30;
-// if (true){
-//     let a = 10  // Block Scope
-//     const b = 20 // Block Scope
-//     var c = 30 // Global Scope
-// }
-// console.log(a);
-// console.log(b);
-// console.log(c);
+let a = 10;
+const b = 20;
+var c = 30;
+if (true){
+    let a = 10  // Block Scope
+    const b = 20 // Block Scope
+    var c = 30 // Global Scope
+}
+console.log(a);
+console.log(b);
+console.log(c);
 
 
 /* 
@@ -26,6 +26,9 @@
 05) const => Block Scope
 06) var  => Global Scope
 */ 
+
+
+
 
 
 
