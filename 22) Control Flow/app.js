@@ -146,13 +146,13 @@ IceSodaPrize > 100 ? console.log("Prize Under Budget") : console.log("Chal be Bi
 07)  For Example : If (condition) logic , like => if (range ===100)console.log("range Perfect"),  console.log("Commas Allowed")
 08) But Immature Code not a best Practice
 09) Multiple Conditions Check => else if 
-10) Logical OPerators Are Two 1) End Operator 2) OR Operators
+10) Logical Operators Are Two 1) End Operator 2) OR Operators
 11)  End Operator Symbol &&
 12)  OR Operator Symbol ||
 13) End Opeator Both Values must be true otherwise code run else value
 14)  OR Operator One value of two is true if code run BUt both value false same behaviuor as a End Operator
 15) Switch Similar IF Statement But Syntax is different 
-16) Switch statmenr followed case method Like case1, case2 
+16) Switch statement followed case method Like case1, case2 
 17) Switch statement must be compulsory "break" keyword
 18) Truthy and falsy values exsist in Java Script
 19) Truthy Values give is : "0", 'false', " ", [], {}, function(){}  empty functions

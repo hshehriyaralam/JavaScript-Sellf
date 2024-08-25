@@ -8,8 +8,8 @@ let arr1 = [2, 4, 5, 10];
  // JS ke aaray Resizebale hOte hain incase ham other value bh add kr sakte hain
 
  // Get value through index numbers in array
- // index number always start in 0
-//  console.log(arr1[0]);
+//  index number always start in 0
+ console.log(arr1[0]);
 
  // array shallow copies refere krta hain 
  // Shallow copy means jiske changing se actuall bh change hO jayega 
@@ -17,13 +17,13 @@ let arr1 = [2, 4, 5, 10];
 
 // 2nd way to define array 
 let arr2 = new Array(6,8,9,89)
-// console.log(arr2);
-// console.log( typeof arr2);
+console.log(arr2);
+console.log( typeof arr2);
 
 // array  Methods 
 // add last value 
 arr2.push(8);
-// console.log(arr2);
+console.log(arr2);
 
 // rmove last value 
 arr2.pop();
@@ -92,8 +92,8 @@ let arr6 = arr7.slice(1,3);
 // Marg 2 Arrays
 
 
-let PTI = ["Imran", "Rasheed", "Ali"]
-let PLN = ["Nawaz", "Shahbaz", "Maryam"]
+// let PTI = ["Imran", "Rasheed", "Ali"]
+// let PLN = ["Nawaz", "Shahbaz", "Maryam"]
 
 // let PDM = PTI.push(PLN);
 // console.log(PTI);
@@ -572,3 +572,127 @@ let PLN = ["Nawaz", "Shahbaz", "Maryam"]
 02) Empty "THIS" output empty objects in node enviroment 
 03) Empty "THIS" output window Objects in browser 
 */
+
+
+// ************************************ IFEE *************************************
+// IFEE (Imediately invoke Function Execution )
+
+// function ice () {
+//   console.log("HEllo SHerry");
+// }
+// ice() // normal invoke 
+
+// (function blue123() {
+//   console.log("Large");
+// })() // IFEE 
+
+
+// (()=> {
+//   console.log("SMIT");
+  
+// })()
+
+// let iife = (function (){
+//   console.log("Expressions");
+  
+// })()
+
+// ((num10,  num12)=> {
+//   console.log(num10 + num12);
+  
+// })(23, 46)
+
+
+// ((userPrivate)=> {
+//   console.log(`${userPrivate}`);
+  
+// })("SHahmeer")
+
+/* ++++++++++++++++++++++++++++++++++++ SUmmary +++++++++++++++++++++++++++++++++++++++ 
+01) IFEE  ( Imediately invoked functions Expressions )
+02) first () functoion declare and 2nd () invoke functions
+03) IFEE used to be avoid global polutions 
+04) Samicolon has must in IFEE when 2nd functions 
+05) Allow to declare Parameter and Argument 
+*/
+
+// ******************************** Control flow ********************************
+
+// IF Statement 
+// let Gendar =  true
+// if(Gendar) {
+//   console.log("Gendar");
+// }else{
+//   console.log("False");
+// }
+
+// if (10>9){
+//   console.log("ture");
+// }else{
+//   console.log("Flse");
+  
+// }
+
+// Switch Case 
+// const month = "Jan"
+// switch(month){
+//   case"Jan":
+//   console.log("January");
+//   break;
+//   case"Feb":
+//   console.log("Feb");
+//   break;
+//   case"Mar":
+//   console.log("Mar");
+//   break;
+//   case"April":
+//   console.log("April");
+//   break;
+//   case"May":
+//   console.log("May");
+//   default:
+//     console.log("Default Case Behaviour");
+// }
+
+
+// Truthy Values 
+// const userEnail = "anything values under string notations "
+// const logic1 = "false"
+// const  logic2 = " ";
+// const logic3 = [];
+// const logic4 = {};
+// const logic5 = function(){}
+
+
+// // Falsy Values 
+// const logic6 = false
+// const logic7 = 0
+// const logic8 = -0
+// const logic9 = BigInt
+// const logic10 = null
+// const login11 = undefined 
+// const logic12 = NaN
+
+// console.log(typeof logic12);
+
+
+// Nulish Coalescing  Operators 
+// let Sameer = 2000
+// let PicnicAmount ;
+// PicnicAmount = 5 ?? Sameer ;
+// PicnicAmount = null ?? Sameer ;
+// PicnicAmount = undefined ?? Sameer ;
+// PicnicAmount = 200 ?? Sameer ;
+// console.log(PicnicAmount);
+
+// Ternory Operators 
+// let Picinic = 200
+// Picinic == 100 ? console.log("Amount ") : console.log("Chal be Paise de ");
+
+
+
+
+
+
+
+

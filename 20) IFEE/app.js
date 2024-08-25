@@ -1,4 +1,4 @@
-// IFEE (Immediately Invoked Function Expressions)
+// IIFE (Immediately Invoked Function Expressions)
 // Function ke immediately invoke krana 
 
 
@@ -16,6 +16,9 @@
 ( () => {
     console.log("Arrow Function");
 })();
+
+
+
 
 
 
