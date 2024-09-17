@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIND</title>
+ </head>
+ <body style="background: #212121; color: #fff;">
+    <button>Button Clicked</button>
+ </body>
+ <script>
+   class React {
+      constructor(){
+         this.library = "React"
+         this.server = "https://localhost:300/"
+         // requirment 
+         // ek button click ho , ek function chale handle click ka
+         // us function server ka refrence get ho jaye 
+         document.querySelector('button')
+         // .addEventListener('click', this.clickHandle)
+         // server ka Reference lene main ye undefined de rha 
+         // new Reference de dye to "this" access nh kr payega 
+         // isko server ko sath "bind" krna hoga 
+         .addEventListener('click', this.clickHandle.bind(this))
+
+         
+      }
+
+      clickHandle(){
+         console.log("button clicked");
+         console.log(this.server);
+         console.log(this.library);
+         
+         
+         
+         
+      }
+      
+   }
+
+   const app = new React()
+ </script>
+ </html>
